@@ -182,6 +182,7 @@ textarea {
     overflow: hidden;
     padding: 16px 24px;
     position: relative;
+    margin: 20px;
     text-decoration: none;
     width: min-content;
     will-change: transform;
