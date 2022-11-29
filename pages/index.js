@@ -11,21 +11,21 @@ const Home = () => {
   return (
     <div className="root">
       <Head>
-        <title>GPT-3 Writer | buildspace</title>
+        <title>Date Ideas with GPT-3</title>
       </Head>
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>sup, insert your headline here</h1>
+            <h1>Plan a date night</h1>
           </div>
           <div className="header-subtitle">
-            <h2>insert your subtitle here</h2>
+            <h2>Tell us a little about your ideal date like where you are, who its with, and what vibes you're going for</h2>
           </div>
           <div className="prompt-container">
           <textarea placeholder="start typing here" className="prompt-box" value={userInput}
   onChange={onUserChangedText} />
           </div>
-          
+
           <div className="prompt-buttons">
             <a className="generate-button" onClick={null}>
               <div className="generate">
