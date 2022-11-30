@@ -6,7 +6,7 @@ const configuration = new Configuration({
 
 const openai = new OpenAIApi(configuration);
 
-const basePromptPrefix = `Give me 5 ideas for a date night for the description below. Tell me what is good about each date and what kind of people might like it. Give a specific location if you can.`;
+const basePromptPrefix = `Give me 3 ideas for a date night for the description below. Tell me what is good about each date and what kind of people might like it. Give a specific location if you can.`;
 // At the end, tell me how to make a reservation if necessary with contact information, include the website.
 const generateAction = async (req, res) => {
   // Run first prompt
