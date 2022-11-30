@@ -41,8 +41,8 @@ const Home = () => {
             <h1>Fresh date nights</h1>
           </div>
           <div className="header-subtitle">
-            <h2>Tell us about your ideal date & we'll give you new ideas.</h2>
-            <h2>Include where you are, who its with, and what vibes you want.</h2>
+            <h2>Tell us about your ideal date & we'll give you new ideas</h2>
+            <h2>Include where you are, who its with, and the vibes you want</h2>
           </div>
           <div className="prompt-container">
           <textarea placeholder="First date in San Francisco" className="prompt-box" value={userInput}
